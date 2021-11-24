@@ -4,10 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sprint 2</title>
+    <link rel="stylesheet" href="/css/style.css">
 
 </head>
 <body>
-    
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <header>
+    <nav class="navbar navbar-expand navbar-light fixed">
+        <div class="container m">
+          <a class="navbar-brand" href="#">
+            <img src="Imagenes/logo-bookmark.svg" alt="logo Bookmark" class="d-inline-block align-text-top">
+          </a>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav text-uppercase">
+              <li class="nav-item p-3">
+                <a class="nav-link active" aria-current="page" href="#">features</a>
+              </li>
+              <li class="nav-item p-3">
+                <a class="nav-link" href="#">pricing</a>
+              </li>
+              <li class="nav-item p-3">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+            </ul>
+            <button class="btn btn-secondary ms-4 text-uppercase" type="button">login</button>
+        </div>
+      </nav>
+</header>
+<main class="container">
+    <section class="row mt-5">
+        <section class="col me-5 mt-6">
+            <h1>A Simple Bookmark Manager</h1>
+            <p class="text-muted">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free</p>
+            <button class="btn btn-primary me-3" type="button">Get it on Chrome</button>
+            <button class="btn btn-light" type="button">Get it on Firefox</button>
+        </section>
+        <section class="col">
+          <img class="img-container" src="Imagenes/illustration-hero.svg" alt="Hero image">
+          <div class="img-bg-shape"></div>
+        </section>
+    </section>
+</main>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>

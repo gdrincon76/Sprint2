@@ -1,0 +1,5 @@
+@use '../custom' as *;
+
+.btn-secondary, .btn-secondary:hover {
+    color: $white;
+}

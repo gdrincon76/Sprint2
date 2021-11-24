@@ -4,7 +4,7 @@
   "description": "Sprint 2 de Angular: Bootstrap 5 y SASS",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch scss:css"
+    "compile:sass": "sass --watch --poll scss:css"
   },
   "keywords": [
     "npm",

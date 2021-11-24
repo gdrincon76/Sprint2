@@ -1,8 +1,11 @@
 @use 'custom';
 
+@use 'components/button';
+
 @use 'section/navbar';
 @use 'section/hero';
 @use 'section/features';
 @use 'section/download-extensions';
 @use 'section/faq';
 @use 'section/footer';
+

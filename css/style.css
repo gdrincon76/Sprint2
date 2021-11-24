@@ -11118,5 +11118,23 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-secondary, .btn-secondary:hover {
+  color: #fff;
+}
+
+.img-bg-shape {
+  background: #5265E1;
+  width: 600px;
+  height: 350px;
+  position: relative;
+  top: 150px;
+  left: 150px;
+  border-radius: 0 0 0 150px;
+}
+
+.img-container {
+  position: absolute;
+  z-index: 1;
+}
 
 /*# sourceMappingURL=style.css.map */
