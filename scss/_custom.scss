@@ -1,0 +1,13 @@
+// Variables
+$custom-blue: #5265E1;
+$custom-red: #FA5959; 
+$custom-btn-padding-x: 1.56rem;
+
+// Colores del tema
+$primary: $custom-blue;
+$secondary: $custom-red;
+
+// botón
+$btn-padding-x: $custom-btn-padding-x;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
