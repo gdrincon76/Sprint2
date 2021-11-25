@@ -1,0 +1,7 @@
+@use '../custom' as *;
+
+.nav-link {
+    border-left: none !important;
+    border-top: none !important;
+    border-right: none !important;
+}

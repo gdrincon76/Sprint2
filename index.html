@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sprint 2</title>
-    <link rel="stylesheet" href="/css/style.css">
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
     <nav class="navbar navbar-expand navbar-light fixed">
-        <div class="container m">
+        <div class="container">
           <a class="navbar-brand" href="#">
             <img src="Imagenes/logo-bookmark.svg" alt="logo Bookmark" class="d-inline-block align-text-top">
           </a>
@@ -40,10 +39,38 @@
         </section>
         <section class="col">
           <img class="img-container" src="Imagenes/illustration-hero.svg" alt="Hero image">
-          <div class="img-bg-shape"></div>
+          <div class="img-bg-shape mb-6"></div>
         </section>
     </section>
 </main>
-  <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<section class="container mt-6">
+  <div class="row">
+    <h2 class="col text-center">Features</h2>
+  </div>
+  <div class="row">
+    <div class="col-3"></div> 
+    <p class="col-6 text-center">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync beetween your devices so you can access them on the go</p> 
+    <div class="col-3"></div> 
+  </div>
+  <nav class="row">
+    <ul class="nav nav-tabs nav-justified" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="simple-tab" data-bs-toggle="tab" data-bs-target="#simple" type="button" role="tab" aria-controls="simple" aria-selected="true">Simple Bookmarking</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="speedy-tab" data-bs-toggle="tab" data-bs-target="#speedy" type="button" role="tab" aria-controls="speedy" aria-selected="false">Speedy Searching</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="easy-tab" data-bs-toggle="tab" data-bs-target="#easy" type="button" role="tab" aria-controls="easy" aria-selected="false">Easy Sharing</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane show active fade" id="simple" role="tabpanel" aria-labelledby="simple-tab">Tab simple</div>
+      <div class="tab-pane fade" id="speedy" role="tabpanel" aria-labelledby="speedy-tab">Tab speedy</div>
+      <div class="tab-pane fade" id="easy" role="tabpanel" aria-labelledby="easy-tab">Tab easy</div>
+    </div>
+  </nav>
+</section>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>

@@ -1,14 +1,29 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
 // Variables
 $custom-blue: #5265E1;
 $custom-red: #FA5959; 
 $custom-btn-padding-x: 1.56rem;
-
+$custom-border-width: 0.188rem;
 // Colores del tema
 $primary: $custom-blue;
 $secondary: $custom-red;
 
-// botón
+// aumento del padding por defecto de los botones
 $btn-padding-x: $custom-btn-padding-x;
+
+$nav-tabs-border-width: $custom-border-width;
+$nav-link-hover-color: $secondary;
+$nav-tabs-link-active-border-color: $secondary;
+$nav-link-color: $gray-500;
+$nav-tabs-link-active-color: $gray-900;
+
+$custom-spacers: (
+    6: ($spacer * 10)
+);
+
+$spacers: map-merge($custom-spacers, $spacers);
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
