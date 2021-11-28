@@ -1,16 +1,16 @@
-@use '../custom' as *;
+@use "../custom" as *;
 
-.img-bg-shape {
-    background: $primary;
-    width: 600px;
-    height: 350px;
-    position: relative;
-    top: 150px;
-    left: 150px;
-    border-radius: 0 0 0 150px;
+.img-bg-shape-hero {
+  background: $primary;
+  width: 600px;
+  height: 350px;
+  position: relative;
+  top: 150px;
+  left: 150px;
+  border-radius: 0 0 0 150px;
 }
 
 .img-container {
-    position: absolute;
-    z-index: 1;
+  position: absolute;
+  z-index: 1;
 }

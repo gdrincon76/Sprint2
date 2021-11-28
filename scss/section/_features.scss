@@ -1,7 +1,45 @@
-@use '../custom' as *;
+@use "../custom" as *;
 
 .nav-link {
-    border-left: none !important;
-    border-top: none !important;
-    border-right: none !important;
+  border-left: none !important;
+  border-top: none !important;
+  border-right: none !important;
+}
+
+.tab-content {
+  > .active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.img-bg-shape-features {
+  background: $primary;
+  width: 600px;
+  height: 350px;
+  position: relative;
+  top: 150px;
+  right: 150px;
+  border-radius: 0 0 0 150px;
+  transform: scale(-1, 1);
+}
+
+.img-pos {
+  margin-left: -50px;
+}
+
+.right-in {
+  animation: right-in 0.5s ease-in-out;
+}
+
+@keyframes right-in {
+  0% {
+    opacity: 0;
+    transform: translatex(300px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }

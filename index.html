@@ -39,7 +39,7 @@
         </section>
         <section class="col">
           <img class="img-container" src="Imagenes/illustration-hero.svg" alt="Hero image">
-          <div class="img-bg-shape mb-6"></div>
+          <div class="img-bg-shape-hero mb-6"></div>
         </section>
     </section>
 </main>
@@ -52,8 +52,8 @@
     <p class="col-6 text-center">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync beetween your devices so you can access them on the go</p> 
     <div class="col-3"></div> 
   </div>
-  <nav class="row">
-    <ul class="nav nav-tabs nav-justified" role="tablist">
+  <nav>
+    <ul class="nav nav-tabs nav-justified mx-6 my-5" role="tablist">
       <li class="nav-item" role="presentation">
         <button class="nav-link active" id="simple-tab" data-bs-toggle="tab" data-bs-target="#simple" type="button" role="tab" aria-controls="simple" aria-selected="true">Simple Bookmarking</button>
       </li>
@@ -64,12 +64,48 @@
         <button class="nav-link" id="easy-tab" data-bs-toggle="tab" data-bs-target="#easy" type="button" role="tab" aria-controls="easy" aria-selected="false">Easy Sharing</button>
       </li>
     </ul>
-    <div class="tab-content" id="nav-tabContent">
-      <div class="tab-pane show active fade" id="simple" role="tabpanel" aria-labelledby="simple-tab">Tab simple</div>
-      <div class="tab-pane fade" id="speedy" role="tabpanel" aria-labelledby="speedy-tab">Tab speedy</div>
-      <div class="tab-pane fade" id="easy" role="tabpanel" aria-labelledby="easy-tab">Tab easy</div>
-    </div>
   </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane show active" id="simple" role="tabpanel" aria-labelledby="simple-tab">
+      <div class="me-5">
+        <img class="img-container img-pos" src="Imagenes/illustration-hero.svg" alt="Hero image">
+        <div class="img-bg-shape-features justify-content-start"></div>
+      </div>
+      <div class="m-4 right-in">
+        <h2>Bookmark in one click</h2>
+        <p class="text-muted">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you
+          complete
+          over how you manage your favourite sites</p>
+          <button class="btn btn-primary">More info</button>
+      </div>
+    </div>
+    <div class="tab-pane" id="speedy" role="tabpanel" aria-labelledby="speedy-tab">
+      <div class="me-5">
+        <img class="img-container img-pos" src="Imagenes/illustration-hero.svg" alt="Hero image">
+        <div class="img-bg-shape-features justify-content-start"></div>
+      </div>
+      <div class="m-4 right-in">
+        <h2>Super fast search</h2>
+        <p class="text-muted">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you
+          complete
+          over how you manage your favourite sites</p>
+        <button class="btn btn-primary">More info</button>
+      </div>
+    </div>
+    <div class="tab-pane" id="easy" role="tabpanel" aria-labelledby="easy-tab">
+      <div class="me-5">
+        <img class="img-container img-pos" src="Imagenes/illustration-hero.svg" alt="Hero image">
+        <div class="img-bg-shape-features justify-content-start"></div>
+      </div>
+      <div class="m-4 right-in">
+        <h2>Share with friends</h2>
+        <p class="text-muted">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you
+          complete
+          over how you manage your favourite sites</p>
+        <button class="btn btn-primary">More info</button>
+      </div>
+    </div>
+  </div>
 </section>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
