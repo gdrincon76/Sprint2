@@ -11595,4 +11595,8 @@ textarea.form-control-lg {
   border-right: none;
 }
 
+.accordion-button {
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=style.css.map */
