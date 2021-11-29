@@ -11562,5 +11562,32 @@ textarea.form-control-lg {
     transform: translate(0);
   }
 }
+.card {
+  width: auto;
+  box-shadow: 2px 2px 7px #ced4da;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+}
+
+.card-img-top {
+  align-self: center;
+  width: 50%;
+}
+
+.card-footer {
+  padding: 0;
+  background-color: transparent;
+  border-top: 0.3rem dotted rgba(0, 0, 0, 0.125);
+}
+
+.move-firefox {
+  top: 50px;
+}
+
+.move-opera {
+  top: 100px;
+}
 
 /*# sourceMappingURL=style.css.map */
