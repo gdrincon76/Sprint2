@@ -7,6 +7,8 @@ $custom-border-width: 0.188rem;
 // Colores del tema
 $primary: $custom-blue;
 $secondary: $custom-red;
+$accordion-icon-color:                    $primary;
+$accordion-icon-active-color:             $primary;
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
@@ -18,6 +20,8 @@ $nav-link-hover-color: $secondary;
 $nav-tabs-link-active-border-color: $secondary;
 $nav-link-color: $gray-500;
 $nav-tabs-link-active-color: $gray-900;
+
+
 
 $custom-spacers: (
   6: (
