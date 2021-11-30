@@ -11599,4 +11599,8 @@ textarea.form-control-lg {
   font-weight: 500;
 }
 
+.bg-dark {
+  background: #242946 !important;
+}
+
 /*# sourceMappingURL=style.css.map */

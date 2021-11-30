@@ -1,12 +1,14 @@
 // Variables
 $custom-blue: #5265e1;
 $custom-red: #fa5959;
+$custom-bg-dark: #242946;
 $custom-btn-padding-x: 1.56rem;
 $custom-border-width: 0.188rem;
 
 // Colores del tema
 $primary: $custom-blue;
 $secondary: $custom-red;
+$bg-color: $custom-bg-dark;
 $accordion-icon-color:                    $primary;
 $accordion-icon-active-color:             $primary;
 
@@ -32,3 +34,4 @@ $custom-spacers: (
 $spacers: map-merge($custom-spacers, $spacers);
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
