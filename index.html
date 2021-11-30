@@ -8,14 +8,17 @@
 </head>
 <body>
   <!--NAV BAR-->
-  <header>
-    <nav class="navbar navbar-expand navbar-light fixed">
+  <header class="mb-6">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="Imagenes/logo-bookmark.svg" alt="logo Bookmark" class="d-inline-block align-text-top">
+            <img src="Imagenes/logo-bookmark.svg" alt="logo Bookmark">
           </a>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav text-uppercase">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
               <li class="nav-item p-3">
                 <a class="nav-link active" aria-current="page" href="#">features</a>
               </li>
@@ -70,11 +73,11 @@
   </nav>
   <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane show active" id="simple" role="tabpanel" aria-labelledby="simple-tab">
-      <div class="me-5">
+      <div>
         <img class="img-container img-pos" src="Imagenes/illustration-features-tab-1.svg" alt="Hero image">
         <div class="img-bg-shape-features mb-6 justify-content-start"></div>
       </div>
-      <div class="m-4 right-in">
+      <div class="right-in">
         <h2>Bookmark in one click</h2>
         <p class="text-muted">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you
           complete
@@ -83,11 +86,11 @@
       </div>
     </div>
     <div class="tab-pane" id="speedy" role="tabpanel" aria-labelledby="speedy-tab">
-      <div class="me-5">
+      <div>
         <img class="img-container img-pos" src="Imagenes/illustration-features-tab-2.svg" alt="Hero image">
         <div class="img-bg-shape-features mb-6 justify-content-start"></div>
       </div>
-      <div class="m-4 right-in">
+      <div class="right-in">
         <h2>Super fast search</h2>
         <p class="text-muted">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you
           complete
@@ -96,11 +99,11 @@
       </div>
     </div>
     <div class="tab-pane" id="easy" role="tabpanel" aria-labelledby="easy-tab">
-      <div class="me-5">
+      <div>
         <img class="img-container img-pos" src="Imagenes/illustration-features-tab-3.svg" alt="Hero image">
         <div class="img-bg-shape-features mb-6 justify-content-start"></div>
       </div>
-      <div class="m-4 right-in">
+      <div class="right-in">
         <h2>Share with friends</h2>
         <p class="text-muted">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you
           complete
@@ -217,7 +220,7 @@
   </div>
 </section>
 <footer class="mt-6 bg-primary">
-  <div class="row pt-5">
+  <div class="pt-5">
     <h6 class="text-uppercase  text-center text-white">35.000+ alredy joined</h6>
     <h2 class="text-center text-white">Stay-up-to-date with what <br> we're doing</h2>
   </div>
@@ -231,11 +234,11 @@
     </div>
   </form>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container justify-content-start">
+    <div class="container">
       <a class="navbar-brand" href="#">
         <img src="Imagenes/logo-bookmark-white.svg" alt="logo Bookmark">
       </a>
-      <div>
+      <div class="navbar-collapse justify-content-start" id="navbarNav">
         <ul class="navbar-nav text-uppercase">
           <li class="nav-item p-3">
             <a class="nav-link" aria-current="page" href="#">features</a>

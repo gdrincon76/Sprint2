@@ -1,0 +1,11 @@
+@use '../custom' as *;
+
+.navbar-expand-lg {
+    background-color: $body-bg !important;
+}
+
+.navbar-toggler {
+    border: none;
+    
+}
+
