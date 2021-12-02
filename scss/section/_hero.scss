@@ -2,15 +2,14 @@
 
 .img-bg-shape-hero {
   background: $primary;
-  width: 600px;
-  height: 350px;
+  width: auto;
+  height: 200px;
   position: relative;
   top: 150px;
-  left: 150px;
   border-radius: 0 0 0 150px;
 }
 
 .img-container {
-  position: absolute;
+  position: relative;
   z-index: 1;
 }
