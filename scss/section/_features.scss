@@ -14,19 +14,19 @@
   }
 }
 
-.img-bg-shape-features {
+.img-shape-features {
   background: $primary;
-  width: 600px;
-  height: 350px;
-  position: relative;
-  top: 150px;
-  right: 150px;
+  width: 75%;
+  height: 75%;
+  bottom: 1px;
+  left: 25%;
   border-radius: 0 0 0 150px;
   transform: scale(-1, 1);
+  z-index: -1;
 }
 
 .img-pos {
-  margin-left: -50px;
+  z-index: 1;
 }
 
 .right-in {
