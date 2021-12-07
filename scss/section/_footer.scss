@@ -4,8 +4,22 @@
     background: $bg-color !important;
     
 }
-footer .navbar-collapse {
-    width: 100%;
-    justify-content: space-evenly !important;
+
+.change-color:hover path {
+    fill: $secondary !important;
+}
+
+input::placeholder {
+    text-align: left;
+}
+
+.validation {
+    margin-top: 0%;
+    color: white;
+    background-color: $secondary;
+}
+
+.was-validate {
+    background-image: url(../../Imagenes/icon-error.svg) !important;
 }
 

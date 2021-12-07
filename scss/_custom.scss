@@ -9,8 +9,13 @@ $custom-border-width: 0.250rem;
 $primary: $custom-blue;
 $secondary: $custom-red;
 $bg-color: $custom-bg-dark;
+
 $accordion-icon-color:                    $primary;
-$accordion-icon-active-color:             $primary;
+$accordion-icon-active-color:             $secondary;
+$accordion-button-focus-border-color:     transparent;
+$accordion-button-focus-box-shadow:       transparent;
+
+$form-feedback-icon-invalid: url(../Imagenes/icon-error.svg);
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
@@ -18,12 +23,15 @@ $accordion-icon-active-color:             $primary;
 $btn-padding-x: $custom-btn-padding-x;
 
 $nav-tabs-border-radius: 0;
-$nav-link-hover-color: $secondary;
+$nav-link-hover-color: $secondary !important;
 $nav-link-color: $gray-600;
 $nav-tabs-link-active-border-color: $secondary;
-$nav-tabs-link-active-color: $gray-900;
+$nav-tabs-link-active-color: $gray-900 !important;
 $navbar-light-toggler-icon-bg: url(../Imagenes/icon-hamburger.svg);
 $navbar-toggler-focus-width: 0;
+
+
+
 
 //$accordion-button-active-bg: $gray-200;
 
@@ -40,3 +48,19 @@ $spacers: map-merge($custom-spacers, $spacers);
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
+.btn:hover {
+  background-color: white;
+  
+}
+
+.btn-secondary:hover {
+  color: $secondary !important;
+}
+
+.btn-primary:hover {
+  color: $primary;
+}
+
+.btn-light:hover {
+  border-color: $gray-800;
+}

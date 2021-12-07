@@ -8,3 +8,18 @@
 .accordion-button {
     font-weight:500;
 }
+
+.accordion-button:hover {
+    color: $secondary;
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: $gray-800;
+}
+
+.accordion-button {
+    border: none !important;
+}
